@@ -1,0 +1,58 @@
+ls
+cd ..
+ls
+cd
+mkdir hi
+ls
+rm -rf hi
+ls
+exit
+ls
+emac     Documents  Games      Public     VirtualBox VMs  dotfiles  joycond  luarocks-3.13.0         paru          test.txt  yay
+emacs
+emacs -nw
+exit
+cd
+ls
+cd Downlloads
+..
+..
+..
+zsh
+clear
+clear
+cd
+ls
+cd paru 
+emacs
+emacs -nw
+cd ..
+hello
+cd ..
+cd. .
+cd ..
+exit
+which cd
+which which
+which nvim
+which pwd
+which ls
+which rm
+which sudo
+which sudo rm
+which sudo echo
+which npm
+which emacs
+neofetch
+fastfetch
+ls
+hello
+clear
+clear
+exit
+ls
+fastfetch
+ls
+exa
+exa
+tmux

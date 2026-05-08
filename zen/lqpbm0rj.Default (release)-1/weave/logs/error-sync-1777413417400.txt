@@ -1,0 +1,27 @@
+1777413416923	Sync.LogManager	DEBUG	Flushing file log
+1777413416931	Sync.LogManager	DEBUG	Log cleanup threshold time: 1776549416931
+1777413416938	Sync.LogManager	DEBUG	Done deleting files.
+1777413417392	Sync.Service	DEBUG	User-Agent: Zen/1.19.9b (Linux x86_64) FxSync/1.152.0.20260424101735.desktop
+1777413417392	Sync.Service	INFO	Starting sync at 2026-04-28 16:56:57 in browser session bIE97NhurmAy
+1777413417393	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1777413417395	Sync.Status	INFO	Resetting Status.
+1777413417395	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1777413417395	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1777413417395	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1777413417396	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.sys.mjs:60:13) JS Stack trace: sync@enginesync.sys.mjs:60:13
+onNotify@service.sys.mjs:1378:28
+WrappedNotify@util.sys.mjs:190:32
+WrappedLock@util.sys.mjs:147:27
+_lockedSync@service.sys.mjs:1392:6
+sync/<@service.sys.mjs:1366:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1367:7
+1777413417397	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1777413417400	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.sys.mjs:60:13) JS Stack trace: sync@enginesync.sys.mjs:60:13
+onNotify@service.sys.mjs:1378:28
+WrappedNotify@util.sys.mjs:190:32
+WrappedLock@util.sys.mjs:147:27
+_lockedSync@service.sys.mjs:1392:6
+sync/<@service.sys.mjs:1366:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1367:7

@@ -1,0 +1,51 @@
+1777380100183	Sync.LogManager	DEBUG	Flushing file log
+1777380100188	Sync.LogManager	DEBUG	Log cleanup threshold time: 1776516100188
+1777380100190	Sync.LogManager	DEBUG	Done deleting files.
+1777380100688	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777380115778	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1777380115778	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1777380115781	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1777380115783	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777380116789	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777380956178	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777380957355	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777380962084	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1777380962084	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1777380962090	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777380962091	Sync.Service	DEBUG	User-Agent: Zen/1.19.9b (Linux x86_64) FxSync/1.152.0.20260424101735.desktop
+1777380962092	Sync.Service	INFO	Starting sync at 2026-04-28 07:56:02 in browser session V62U50yWammi
+1777380962092	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1777380962094	Sync.Status	INFO	Resetting Status.
+1777380962095	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1777380962096	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1777380962096	FirefoxAccounts	DEBUG	getOAuthToken enter
+1777380962097	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1777380962097	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1777380962097	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1777380962098	Sync.SyncAuthManager	INFO	Getting sync key
+1777380962099	FirefoxAccounts	DEBUG	getOAuthToken enter
+1777380962099	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1777380962099	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1777380962099	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1777380962099	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1777380962099	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1777380962099	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1777380996408	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398919 - NS_ERROR_NET_INTERRUPT
+1777380996409	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_NET_INTERRUPT\"  nsresult: \"0x804b0047 (NS_ERROR_NET_INTERRUPT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1777381002868	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398919 - NS_ERROR_NET_INTERRUPT
+1777381002868	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1777381002868	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1777381002868	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1777381002869	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1777381002869	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1777381002870	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1777381002870	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1777381017894	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/180783435/info/collections failed: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1777381017894	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1777381017894	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1777381017894	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 4267088 ms.
+1777381017894	Sync.SyncScheduler	DEBUG	Next sync in 4267088 ms. (why=client-backoff-schedule)
+1777381017895	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1777381017898	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "<no message>"  nsresult: "0x805a1ff3 (<unknown>)"  location: "<unknown>"  data: no] No traceback available

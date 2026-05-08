@@ -1,0 +1,21 @@
+1772744041404	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1772744045721	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1772744076337	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1772744076337	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1772744076338	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1772744076341	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1772744083608	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1772744083608	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1772744083613	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1772744083615	Sync.Service	DEBUG	User-Agent: Zen/1.19.1b (Linux x86_64) FxSync/1.150.0.20260304063135.desktop
+1772744083615	Sync.Service	INFO	Starting sync at 2026-03-05 15:54:43 in browser session xvk4Z5-hvyVQ
+1772744083615	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1772744083618	Sync.Status	INFO	Resetting Status.
+1772744083618	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1772744083619	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1772744083811	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/180783435/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772744083811	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1772744083811	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1772744083812	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772744083813	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1772744083817	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

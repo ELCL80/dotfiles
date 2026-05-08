@@ -1,0 +1,1 @@
+1774318796659	SessionStore	ERROR	NotReadableError when reading session file: clean: NotReadableError: Could not read `/home/kyle/.config/zen/lqpbm0rj.Default (release)-1/sessionstore.jsonlz4': could not decompress file: buffer is too small (NS_ERROR_FILE_CORRUPTED) No traceback available

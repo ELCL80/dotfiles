@@ -1,0 +1,108 @@
+1777399142859	Sync.LogManager	DEBUG	Flushing file log
+1777399142860	Sync.LogManager	DEBUG	Log cleanup threshold time: 1776535142860
+1777399142871	Sync.LogManager	DEBUG	Done deleting files.
+1777402147730	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1777402147730	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1777402147737	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777402147739	Sync.Service	DEBUG	User-Agent: Zen/1.19.9b (Linux x86_64) FxSync/1.152.0.20260424101735.desktop
+1777402147739	Sync.Service	INFO	Starting sync at 2026-04-28 13:49:07 in browser session jloI3-8YbGfK
+1777402147740	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1777402147744	Sync.Status	INFO	Resetting Status.
+1777402147744	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1777402147747	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1777402147747	FirefoxAccounts	DEBUG	getOAuthToken enter
+1777402147748	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1777402147748	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1777402147749	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1777402147751	Sync.SyncAuthManager	INFO	Getting sync key
+1777402147751	FirefoxAccounts	DEBUG	getOAuthToken enter
+1777402147752	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1777402147752	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1777402147752	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1777402147752	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1777402147752	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1777402147753	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1777402149403	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1777402149729	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777402168762	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777402173877	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1777402218875	Sync.Service	DEBUG	User-Agent: Zen/1.19.9b (Linux x86_64) FxSync/1.152.0.20260424101735.desktop
+1777402218875	Sync.Service	INFO	Starting sync at 2026-04-28 13:50:18 in browser session jloI3-8YbGfK
+1777402218875	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1392:6
+sync/<@service.sys.mjs:1366:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1367:7
+1777402218875	Sync.Service	INFO	Cannot start sync: already syncing?
+1777402309550	Sync.RemoteTabs	INFO	Generating tab list with filter
+1777402309629	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 9Llbt6X_dFpP
+1777402309633	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: H69usa74TH22
+1777402309633	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: KciClV63jXPR
+1777402309633	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: XOjGK5o49veX
+1777402309634	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: ZXLA1HhN3BAS
+1777402309634	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: gug5Noaj69Zt
+1777402309634	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: qclSk2QsjO4E
+1777402309634	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: xOAaDbdIoN3T
+1777402309643	Sync.RemoteTabs	DEBUG	Processing client: {"id":"54af751757334b9aaaf0b56d634c9c3d","type":"client","name":"Firefox on Xiaomi 2310FPCA4G","clientType":"phone","lastModified":1777154833810,"tabs":[]}
+1777402309646	Sync.RemoteTabs	DEBUG	Processing client: {"id":"V63nZRtlqX8B","type":"client","name":"Nova’s Firefox on DESKTOP-7NI26I4","clientType":"desktop","lastModified":1775684021560,"tabs":[]}
+1777402309647	Sync.RemoteTabs	DEBUG	Processing client: {"id":"ivvMoCrZcFFJ","type":"client","name":"kyle’s Firefox on nixos","clientType":"desktop","lastModified":1777165707210,"tabs":[]}
+1777402309647	Sync.RemoteTabs	INFO	Final tab list has 3 clients with 15 tabs.
+1777402310976	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1777402311021	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1777402312032	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1777402312252	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1777402312287	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1777402314036	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1777402316013	Sync.Engine.Tabs	DEBUG	Updating last sync to 1777398229.44
+1777402316028	Sync.Engine.Tabs	INFO	update_local_state has 12 tab entries
+1777402316030	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1777402316030	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1777402316033	Sync.Engine.Tabs	DEBUG	Updating last sync to 4102405200000
+1777402316055	Sync.Engine.Tabs	INFO	prepare_for_upload found 12 tabs
+1777402316056	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1777402316064	Sync.Engine.Tabs	INFO	Posting 1 records of 6763 bytes with batch=true
+1777402316065	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1777402316065	FirefoxAccounts	DEBUG	getOAuthToken enter
+1777402316066	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1777402316066	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1777402316066	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1777402321596	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1777402342173	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1777402346124	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1777402347182	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1777402347372	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1777402352397	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1777402363856	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1777402368883	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1777402371462	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1777402376512	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1777402448066	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1777402448095	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1777402448099	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1777402448151	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1777402448155	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1777402448157	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1777402448173	Sync.Collection	DEBUG	POST Length: 6763
+1777402448199	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1777402448201	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1777402448202	FirefoxAccounts	DEBUG	getOAuthToken enter
+1777402448207	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1777402448208	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1777402448228	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1777402448677	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1777402449008	Sync.Resource	DEBUG	GET fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/180783435/info/collections
+1777402449008	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/180783435/info/collections failed with status 401
+1777402449011	Sync.Service	INFO	Logging out
+1777402449017	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1777402449017	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1777402449023	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1777402449024	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1777402449025	Sync.ErrorHandler	ERROR	Sync encountered an error: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/180783435/info/collections","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Tue, 28 Apr 2026 18:54:09 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish, 1.1 varnish","x-cache":"MISS, MISS","x-cache-hits":"0, 0","x-firefox-early-data":"accepted","x-firefox-spdy":"h2","x-served-by":"cache-mia-kmia1760101-MIA, cache-mia-kmia1760042-MIA","x-timer":"S1777402449.919367,VS0,VE102","x-weave-timestamp":"1777402448.96"},"obj":0}
+1777402449027	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1777402449028	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1777402449060	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/180783435/info/collections","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Tue, 28 Apr 2026 18:54:09 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish, 1.1 varnish","x-cache":"MISS, MISS","x-cache-hits":"0, 0","x-firefox-early-data":"accepted","x-firefox-spdy":"h2","x-served-by":"cache-mia-kmia1760101-MIA, cache-mia-kmia1760042-MIA","x-timer":"S1777402449.919367,VS0,VE102","x-weave-timestamp":"1777402448.96"},"obj":0}
