@@ -1,3 +1,0 @@
-# PSM Certificate Override Settings file
-# This is a generated file!  Do not edit.
-www.slickwrite.com:443:	OID.2.16.840.1.101.3.4.2.1	70:B2:11:77:F3:CD:01:77:C0:64:F1:71:92:33:07:1D:52:F9:46:13:9E:81:A2:0E:8C:2D:B9:1C:56:D7:2A:FE	
