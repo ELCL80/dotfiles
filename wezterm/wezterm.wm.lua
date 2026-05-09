@@ -27,6 +27,6 @@ config.window_padding = {
     bottom = '0.5cell',
 }
 
-config.enable_wayland = false
+config.enable_wayland = true
 
 return config
