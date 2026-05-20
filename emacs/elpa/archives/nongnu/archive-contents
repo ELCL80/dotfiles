@@ -51,12 +51,12 @@
       (:authors ("Jordon Biondo" . "jordonbiondo@gmail.com"))
       (:commit . "33691c93ee302690e41f631f82083bcc15d229e8"))])
  (annotate
-  . [(2 4 5) ((emacs (27 1))) "annotate files without changing them"
+  . [(2 5 0) ((emacs (27 1))) "annotate files without changing them"
      tar
      ((:url . "https://github.com/bastibe/annotate.el")
       (:maintainer ("Bastian Bechtold" . "bastibe.dev@mailbox.org")
 		   ("cage" . "cage-dev@twistfold.it"))
-      (:commit . "4e610f56ae5ce24e3577ffa1a293c7037ac1c2ea"))])
+      (:commit . "9a7f8f1d0e19fb905a6f8d7c1347991d1e7b0d03"))])
  (anti-zenburn-theme
   . [(2 5 1) nil "Low-contrast Zenburn-inverted theme" tar
      ((:url . "https://github.com/m00natic/anti-zenburn-theme")
@@ -162,18 +162,18 @@
       (:authors ("Huan Thieu Nguyen" . "nguyenthieuhuan@gmail.com"))
       (:commit . "e9e56dec10f070367ab555c717c3d567a5962c82"))])
  (boxquote
-  . [(2 3) ((cl-lib (0 5))) "Quote text with a semi-box." tar
+  . [(2 4 1) ((emacs (28 1))) "Quote text with a semi-box" tar
      ((:url . "https://github.com/davep/boxquote.el")
-      (:keywords "quoting")
+      (:keywords "convenience" "editing" "quoting")
       (:maintainer "Dave Pearson" . "davep@davep.org")
       (:authors ("Dave Pearson" . "davep@davep.org"))
-      (:commit . "fe676396fa7e4372e01bf2c3d9a62e8d53615d46"))])
+      (:commit . "6d67daa0d7ac1a1eb0749ddd9a9f221490f2203c"))])
  (buttercup
-  . [(1 38) ((emacs (24 4))) "Behavior-Driven Emacs Lisp Testing" tar
+  . [(1 40) ((emacs (24 4))) "Behavior-Driven Emacs Lisp Testing" tar
      ((:url . "https://github.com/jorgenschaefer/emacs-buttercup")
       (:maintainer "Ola Nilsson" . "ola.nilsson@gmail.com")
       (:authors ("Jorgen Schaefer" . "contact@jorgenschaefer.de"))
-      (:commit . "cc5a2ab7c7f18aaaf525fac61fe59bae5ad018dd"))])
+      (:commit . "57d03004cc730678bcdefb91ad294824975cfea4"))])
  (camera
   . [(0 3) ((emacs (25 1))) "Take picture with your camera" tar
      ((:url . "https://codeberg.org/akib/emacs-camera")
@@ -192,13 +192,13 @@
 		("Damien Doligez" . "damien.doligez@inria.fr"))
       (:commit . "2905a436e956c5bba16c4633a6e4c4fceefa6535"))])
  (casual
-  . [(2 15 0) ((emacs (30 1)) (transient (0 9 0)) (csv-mode (1 27)))
+  . [(2 16 1) ((emacs (30 1)) (transient (0 9 0)) (csv-mode (1 27)))
      "Transient user interfaces for various modes" tar
      ((:url . "https://github.com/kickingvegas/casual")
       (:keywords "tools" "wp")
       (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
       (:authors ("Charles Choi" . "kickingvegas@gmail.com"))
-      (:commit . "81e032d24c46159cc98ec5248e48ee3659025ad0"))])
+      (:commit . "72fc24345934888528e823195d90cf0a60b948c9"))])
  (cdlatex
   . [(4 18 5) nil "Fast input methods for LaTeX environments and math"
      tar
@@ -244,11 +244,15 @@
       (:authors ("Chris Wanstrath" . "chris@ozmm.org"))
       (:commit . "adfb7ae73d6ee2ef790c780dd3c967e62930e94a"))])
  (cond-let
-  . [(0 2 2) ((emacs (28 1)))
+  . [(1 1 1) ((emacs (28 1)))
      "Additional and improved binding conditionals" tar
      ((:url . "https://github.com/tarsius/cond-let")
       (:keywords "extensions")
-      (:commit . "8bf87d45e169ebc091103b2aae325aece3aa804d"))])
+      (:maintainer "Jonas Bernoulli"
+		   . "emacs.cond-let@jonas.bernoulli.dev")
+      (:authors
+       ("Jonas Bernoulli" . "emacs.cond-let@jonas.bernoulli.dev"))
+      (:commit . "7ec5ace3e6acc240179bf3cdeb6f9e6751530c38"))])
  (consult-flycheck
   . [(1 1) ((emacs (29 1)) (consult (2 8)) (flycheck (35)))
      "Provides the command `consult-flycheck'" tar
@@ -446,6 +450,13 @@
       (:maintainer "Huang Feiyu" . "sibadake1@163.com")
       (:authors ("Huang Feiyu" . "sibadake1@163.com"))
       (:commit . "2d89026fbc61214fda25d5dd589cd328ddce5f6e"))])
+ (elfeed
+  . [(3 4 2) ((emacs (24 3))) "An Emacs Atom/RSS feed reader" tar
+     ((:url . "https://github.com/skeeto/elfeed")
+      (:keywords "network" "hypermedia")
+      (:maintainer "Christopher Wellons" . "wellons@nullprogram.com")
+      (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
+      (:commit . "cfa931a0cf56e2e7be0ddadc41fcf11dc0209232"))])
  (elixir-mode
   . [(2 5 0) ((emacs (25))) "Major mode for editing Elixir files" tar
      ((:url . "https://github.com/elixir-editors/emacs-elixir")
@@ -472,6 +483,12 @@
       (:maintainer "Harry R. Schwartz" . "hello@harryrschwartz.com")
       (:authors ("Harry R. Schwartz" . "hello@harryrschwartz.com"))
       (:commit . "67b68c1a2bff48bad2cc4722598da0f36e3866a9"))])
+ (eprolog
+  . [(0 3 2) ((emacs (27 2))) "Native Prolog engine implementation"
+     tar
+     ((:url . "https://github.com/tani/eprolog")
+      (:keywords "languages" "prolog" "logic programming")
+      (:commit . "6eff9942d3de603109101f3d74e30aac495203f6"))])
  (esxml
   . [(0 3 8) ((emacs (24 1)) (cl-lib (0 5)))
      "Library for working with xml via esxml and sxml" tar
@@ -559,12 +576,12 @@
       (:authors ("Sylvain Benner" . "sylvain.benner@gmail.com"))
       (:commit . "3c65fecd9917a41eaf6460f22187e2323821f3ce"))])
  (evil-matchit
-  . [(4 0 1) ((emacs (27 1))) "Vim matchit ported to Evil" tar
+  . [(4 1 0) ((emacs (27 1))) "Vim matchit ported to Evil" tar
      ((:url . "http://github.com/redguardtoo/evil-matchit")
       (:keywords "matchit" "vim" "evil")
       (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
-      (:commit . "84a6d34c1a1282c43c6ccef2ead3eaa41fd1535f"))])
+      (:commit . "8d0bca76ed9958fc5ad460e6085175c83695bbdb"))])
  (evil-nerd-commenter
   . [(3 6 1) ((emacs (26 1)))
      "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim"
@@ -575,13 +592,13 @@
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "3b197a2b559b06a7cf39978704b196f53dac802a"))])
  (evil-numbers
-  . [(0 7) ((emacs (24 1)) (evil (1 2 0)))
+  . [(0 8) ((emacs (24 1)) (evil (1 2 0)) (shift-number (0 2)))
      "Increment/decrement numbers like in VIM" tar
      ((:url . "http://github.com/juliapath/evil-numbers")
       (:keywords "convenience" "tools")
       (:maintainer "Julia Path" . "julia@jpath.de")
       (:authors ("Michael Markert" . "markert.michael@googlemail.com"))
-      (:commit . "61dde4e3715fd1255df8f87a37d9c8022e909bf4"))])
+      (:commit . "616aff9e5cee012954756ed2715209fa90308cdf"))])
  (evil-surround
   . [(1 0 4) ((evil (1 2 12))) "emulate surround.vim from Vim" tar
      ((:keywords "emulation" "vi" "evil")
@@ -622,22 +639,22 @@
       (:authors ("Paul Pogonyshev" . "pogonyshev@gmail.com"))
       (:commit . "c7af95865ef083327d299b86c254ca87fa88a504"))])
  (fedi
-  . [(0 3) ((emacs (28 1)) (markdown-mode (2 5)))
+  . [(0 4) ((emacs (28 1)) (markdown-mode (2 5)))
      "Helper functions for fediverse clients" tar
      ((:url . "https://codeberg.org/martianh/fedi.el")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
-      (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "74fab520f1d008f5a389a673616a617c03c74600"))])
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
+      (:authors ("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "91f28ee199a499b8d6e1b9c7a0f1c15f8a382198"))])
  (fj
-  . [(0 34)
+  . [(0 37)
      ((emacs (29 1)) (fedi (0 2)) (tp (0 8)) (transient (0 10 0))
       (magit (4 3 8)))
      "Client for Forgejo instances" tar
      ((:url . "https://codeberg.org/martianh/fj.el")
       (:keywords "git" "convenience")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
-      (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "3697ac2847180bd307e70ff0fb9ef086f59dec24"))])
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
+      (:authors ("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "16c1d02065c78f381cd0e30c68f6ca070f0cc8b3"))])
  (flx
   . [(0 6 2) ((cl-lib (0 3))) "fuzzy matching with good sorting" tar
      ((:url . "https://github.com/lewang/flx")
@@ -717,13 +734,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "ce2ea016a67b200862788e81f0ff1f8f7e4e0454"))])
  (geiser
-  . [(0 32) ((emacs (27 1)) (project (0 8 1)))
+  . [(0 33) ((emacs (27 1)) (project (0 8 1)))
      "GNU Emacs and Scheme talk to each other" tar
      ((:url . "https://gitlab.com/emacs-geiser/")
       (:keywords "languages" "scheme" "geiser")
       (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
       (:authors ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-      (:commit . "9e76f336b91151315642de9bcbed0ffe83b69db7"))])
+      (:commit . "55b4b7847902d626a76e110a862d0fde1d1ff297"))])
  (geiser-chez
   . [(0 18) ((emacs (26 1)) (geiser (0 19)))
      "Chez and Geiser talk to each other" tar
@@ -762,13 +779,13 @@
       (:authors ("András Simonyi" . "andras.simonyi@gmail.com"))
       (:commit . "9e7ed54e5629f759660569bc7efc3d75dbabbc5f"))])
  (geiser-guile
-  . [(0 28 3) ((emacs (26 1)) (transient (0 3)) (geiser (0 28 1)))
+  . [(0 28 5) ((emacs (27 1)) (transient (0 3)) (geiser (0 33)))
      "Guile and Geiser talk to each other" tar
      ((:url . "https://gitlab.com/emacs-geiser/guile")
       (:keywords "languages" "guile" "scheme" "geiser")
       (:maintainer "Jose Antonio Ortega Ruiz" . "(jao@gnu.org)")
       (:authors ("Jose Antonio Ortega Ruiz" . "(jao@gnu.org)"))
-      (:commit . "a0f111f8dedd31c593c4ed12c0b99745f3c1340f"))])
+      (:commit . "cbab81bd2dcb4c787bcda4ae18062db3087e6887"))])
  (geiser-kawa
   . [(0 0 1) ((emacs (26 1)) (geiser (0 16)))
      "Kawa scheme support for Geiser" tar
@@ -827,13 +844,13 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "6bb82ce89ed93222dd919bc65e0f46ac4aa13479"))])
  (gnuplot
-  . [(0 11) ((emacs (28 1)) (compat (30)))
+  . [(0 12) ((emacs (28 1)) (compat (31)))
      "Major-mode and interactive frontend for gnuplot" tar
      ((:url . "https://github.com/emacs-gnuplot/gnuplot")
       (:keywords "data" "gnuplot" "plotting")
       (:maintainer ("Maxime Tréca" . "maxime@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "f10d42221856e86c57dd5cc7400c078c021ba710"))])
+      (:commit . "2da2ef68d4861e2e5a5b1a81340b8d92b276a3a5"))])
  (go-mode
   . [(1 6 0) ((emacs (26 1)))
      "Major mode for the Go programming language" tar
@@ -862,7 +879,7 @@
       (:authors ("David Andersson" . "l.david.anderssonsverige.nu"))
       (:commit . "278cd3e6d5107693aa2bb33189ca503f22f227d0"))])
  (gptel
-  . [(0 9 9 4)
+  . [(0 9 9 5)
      ((emacs (27 1)) (transient (0 7 4)) (compat (30 1 0 0)))
      "Interact with ChatGPT or other LLMs" tar
      ((:url . "https://github.com/karthink/gptel")
@@ -871,7 +888,7 @@
 		   . "karthik.chikmagalur@gmail.com")
       (:authors
        ("Karthik Chikmagalur" . "karthik.chikmagalur@gmail.com"))
-      (:commit . "d221329ee3aa0198ad51c003a8d94b2af3a72dce"))])
+      (:commit . "f5ad4eb812920fba3fcfbe32042ef89f979a7e17"))])
  (graphql-mode
   . [(1 0 0) ((emacs (24 3))) "Major mode for editing GraphQL schemas"
      tar
@@ -923,21 +940,21 @@
       (:authors ("Pranshu Sharma" . "pranshu@bauherren.ovh"))
       (:commit . "16155f8b63ccf67d46535207a4f4378f675a8b47"))])
  (helm
-  . [(4 0 6) ((helm-core (4 0 6)) (wfnames (1 2)))
+  . [(4 0 7) ((helm-core (4 0 7)) (wfnames (1 2)))
      "Helm is an Emacs incremental and narrowing framework" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:keywords "helm" "convenience" "files" "buffers" "grep"
 		 "completion" "lisp" "matching" "tools" "help")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "f12e7dd3132724cc294e79b55291a2c967a8fe5c"))])
+      (:commit . "3cd5097285dc10ac0898cf6f30c9699c3399e421"))])
  (helm-core
-  . [(4 0 6) ((emacs (25 1)) (async (1 9 9)))
+  . [(4 0 7) ((emacs (25 1)) (async (1 9 9)))
      "Development files for Helm" tar
      ((:url . "https://emacs-helm.github.io/helm/")
       (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
       (:authors ("Thierry Volpiatto" . "thievol@posteo.net"))
-      (:commit . "f12e7dd3132724cc294e79b55291a2c967a8fe5c"))])
+      (:commit . "3cd5097285dc10ac0898cf6f30c9699c3399e421"))])
  (hideshowvis
   . [(0 9) ((emacs (27 1)))
      "Fringe markers for regions foldable by hideshow.el" tar
@@ -1056,12 +1073,13 @@
       (:keywords "j" "languages")
       (:commit . "1365e5a3fe772609685b3787bbd2960331c1a02f"))])
  (jabber
-  . [(0 10 3) ((emacs (29 1)) (fsm (0 2 0))) "XMPP/Jabber client" tar
-     ((:url . "https://git.thanosapollo.org/emacs-jabber")
+  . [(0 10 9) ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
+     "XMPP/Jabber client" tar
+     ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "c303c44003a9f9d5e576c99cc4a302e9cf1142b7"))])
+      (:commit . "b1db3db0287f4bcc3a31eb9645111b1246880f4e"))])
  (jade-mode
   . [(1 0 1) nil "Major mode for editing .jade files" tar
      ((:url . "https://github.com/brianc/jade-mode")
@@ -1101,13 +1119,13 @@
       (:url . "https://elpa.nongnu.org/nongnu/kotlin-mode.html")
       (:commit . "d92c3b773473e9fe15f61f6177e4fbf097aadd05"))])
  (lem
-  . [(0 24) ((emacs (29 1)) (fedi (0 2)) (markdown-mode (2 5)))
+  . [(0 25) ((emacs (29 1)) (fedi (0 2)) (markdown-mode (2 5)))
      "A lemmy client" tar
      ((:url . "https://codeberg.org/martianh/lem.el")
       (:keywords "multimedia" "comm" "web" "fediverse")
-      (:maintainer "martian hiatus" . "mousebot@disroot.org")
-      (:authors ("martian hiatus" . "mousebot@disroot.org"))
-      (:commit . "c746d32d2f330ed9a23ec7f8fc1f7d35ac22c357"))])
+      (:maintainer "martian hiatus" . "martianh@disroot.org")
+      (:authors ("martian hiatus" . "martianh@disroot.org"))
+      (:commit . "df4c87e2ea7b7f48701615294d2d708e0f469bbf"))])
  (llama
   . [(1 0 4) ((emacs (26 1)) (compat (30 1)))
      "Compact syntax for short lambda" tar
@@ -1215,13 +1233,13 @@
       (:authors ("Jason R. Blevins" . "jblevins@xbeta.org"))
       (:commit . "f5d520b3ee7722dd2231ab586ba51d8eb166e49b"))])
  (mastodon
-  . [(2 0 16) ((emacs (29 1)) (persist (0 8)) (tp (0 8)))
+  . [(2 0 17) ((emacs (29 1)) (persist (0 8)) (tp (0 8)))
      "Client for fediverse services using the Mastodon API" tar
      ((:url . "https://codeberg.org/martianh/mastodon.el")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
       (:authors ("Johnson Denen" . "johnson.denen@gmail.com")
-		("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "1aa4595ccacde9c10569ab8ab93de6bd25f672f1"))])
+		("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "97434f91d1dd940fcec6df78d8aaf338a2d7a7ba"))])
  (material-theme
   . [(2015) ((emacs (24 1)))
      "A Theme based on the colors of the Google Material Design" tar
@@ -1472,14 +1490,14 @@
       (:authors ("Andreas Politz" . "mail@andreas-politz.de"))
       (:commit . "5245f092e35712df6559a7782a93bb61896175dd"))])
  (pg
-  . [(0 64) ((emacs (28 1)) (peg (1 0 1)))
+  . [(0 66) ((emacs (28 1)) (peg (1 0 1)))
      "Socket-level interface to the PostgreSQL database" tar
      ((:url . "https://github.com/emarsden/pg-el")
       (:keywords "data" "comm" "database" "postgresql")
       (:maintainer "Eric Marsden"
 		   . "eric.marsden@risk-engineering.org")
       (:authors ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
-      (:commit . "67f50311947a54913d91852ebd6880dbe68930bc"))])
+      (:commit . "67eb8564c6b974bc8f9a22053d1ff7ebec2e7dc3"))])
  (php-mode
   . [(1 26 1) ((emacs (26 1))) "Major mode for editing PHP code" tar
      ((:url . "https://github.com/emacs-php/php-mode")
@@ -1614,13 +1632,13 @@
       (:keywords "markup" "language" "css")
       (:commit . "aee28ea552dce5aade05d8a7f91514e6eb37e59f"))])
  (scad-mode
-  . [(98 0) ((emacs (29 1)) (compat (30)))
+  . [(99 0) ((emacs (29 1)) (compat (31)))
      "A major mode for editing OpenSCAD code" tar
      ((:url . "https://github.com/openscad/emacs-scad-mode")
       (:keywords "languages")
       (:maintainer ("Len Trigg" . "lenbok@gmail.com")
 		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
-      (:commit . "546d1507cd131f55ca930de7ae1518884e8221f4"))])
+      (:commit . "8798dca7e919705bcbc35d4ab5639556827ccb6f"))])
  (scala-mode
   . [(1 1 1) ((emacs (25 1))) "Major mode for editing Scala" tar
      ((:url . "https://github.com/hvesalai/emacs-scala-mode")
@@ -1658,6 +1676,14 @@
       (:maintainer "Chen Bin" . "chenbin.sh@gmail.com")
       (:authors ("Chen Bin" . "chenbin.sh@gmail.com"))
       (:commit . "4e71f5b9199a0ad10017104a6b2bf5ef5f207dfc"))])
+ (simple-httpd
+  . [(1 6) ((emacs (27 1)) (compat (31))) "Pure Elisp HTTP server" tar
+     ((:url . "https://github.com/skeeto/emacs-http-server")
+      (:keywords "network" "comm")
+      (:maintainer ("Philip Kaludercic" . "philipk@posteo.net")
+		   ("Daniel Mendler" . "mail@daniel-mendler.de"))
+      (:authors ("Christopher Wellons" . "wellons@nullprogram.com"))
+      (:commit . "5a9c69ae93ed5e2cdca98f51b41f6a6782091d74"))])
  (slime
   . [(2 32) ((emacs (24 3)) (macrostep (0 9)))
      "Superior Lisp Interaction Mode for Emacs" tar
@@ -1732,11 +1758,11 @@
       (:authors ("John Olsson" . "john@cryon.se"))
       (:commit . "2d5acd143a153e16372d59000e57d76291ab81dd"))])
  (subed
-  . [(1 4 1) ((emacs (25 1))) "A major mode for editing subtitles" tar
+  . [(1 4 2) ((emacs (25 1))) "A major mode for editing subtitles" tar
      ((:url . "https://github.com/sachac/subed")
       (:keywords "convenience" "files" "hypermedia" "multimedia")
       (:maintainer "Sacha Chua" . "sacha@sachachua.com")
-      (:commit . "88a64355523a3bc65790afc7fe6e852183df6df4"))])
+      (:commit . "ebf9dc981c65a94982dc92b7f3bc0560b2f579aa"))])
  (sweeprolog
   . [(0 27 6) ((emacs (27 1)) (compat (29 1 4 2)))
      "Embedded SWI-Prolog" tar
@@ -1746,7 +1772,7 @@
       (:authors ("Eshel Yaron" . "me@eshelyaron.com"))
       (:commit . "bd31199a34c0619b346954f25875fcb7239e2b86"))])
  (swift-mode
-  . [(9 4 0) ((emacs (24 4)) (seq (2 3)))
+  . [(10 0 0) ((emacs (25 2)))
      "Major-mode for Apple's Swift programming language" tar
      ((:url . "https://github.com/swift-emacs/swift-mode")
       (:keywords "languages" "swift")
@@ -1755,7 +1781,7 @@
 		("Chris Barrett" . "chris.d.barrett@me.com")
 		("Bozhidar Batsov" . "bozhidar@batsov.com")
 		("Arthur Evstifeev" . "lod@pisem.net"))
-      (:commit . "fc7df7bd906a2bb04aac6e0de47fc7acf33ceed3"))])
+      (:commit . "bf56866b98de2fd73029da2bca1035ca02f9e879"))])
  (symbol-overlay
   . [(4 3) ((emacs (24 3)) (seq (2 2)))
      "Highlight symbols with keymap-enabled overlays" tar
@@ -1831,13 +1857,13 @@
       (:authors ("Vivek Das Mohapatra" . "vivek@etla.org"))
       (:commit . "v1.0"))])
  (tp
-  . [(0 8) ((emacs (28 1)) (transient (0 5 0)))
+  . [(0 9) ((emacs (28 1)) (transient (0 5 0)))
      "Utilities for transient menus that POST to an API" tar
      ((:url . "https://codeberg.org/martianh/tp.el")
       (:keywords "convenience" "api" "requests")
-      (:maintainer "Marty Hiatt" . "mousebot@disroot.org")
-      (:authors ("Marty Hiatt" . "mousebot@disroot.org"))
-      (:commit . "cef3fc2daefbbfc29ad02b7e1f39542b57c72fe8"))])
+      (:maintainer "Marty Hiatt" . "martianh@disroot.org")
+      (:authors ("Marty Hiatt" . "martianh@disroot.org"))
+      (:commit . "4a1aa2f034676c0b37f50ee0c52f73cab33eadbb"))])
  (treepy
   . [(0 1 3) ((emacs (25 1))) "Generic tree traversal tools" tar
      ((:url . "https://github.com/volrath/treepy.el")
@@ -1973,7 +1999,7 @@
       (:authors ("Akib Azmain Turja" . "akib@disroot.org"))
       (:commit . "5203d9379afaf6703746823a580c804e1dd98e08"))])
  (with-editor
-  . [(3 4 9) ((emacs (26 1)) (compat (30 1)))
+  . [(3 5 0) ((emacs (26 1)) (compat (30 1)))
      "Use the Emacsclient as $EDITOR" tar
      ((:url . "https://github.com/magit/with-editor")
       (:keywords "processes" "terminals")
@@ -1981,7 +2007,7 @@
 		   . "emacs.with-editor@jonas.bernoulli.dev")
       (:authors
        ("Jonas Bernoulli" . "emacs.with-editor@jonas.bernoulli.dev"))
-      (:commit . "64211dcb815f2533ac3d2a7e56ff36ae804d8338"))])
+      (:commit . "14ea1d98337a47d899ee1860f96b7cbb1ef0e2a0"))])
  (with-simulated-input
   . [(3 0) ((emacs (24 4)))
      "A macro to simulate user input non-interactively" tar
@@ -2014,12 +2040,12 @@
       (:authors ("Le Wang" . "l26wang@gmail.com"))
       (:commit . "9ee5a7657a22e836618813c2e2b64a548d27d2ff"))])
  (xah-fly-keys
-  . [(28 11 20260215192642) ((emacs (28 3)))
+  . [(28 11 20260416140940) ((emacs (28 3)))
      "ergonomic modal keybinding minor mode." tar
      ((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
       (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
       (:maintainer "Xah Lee" . "xah@xahlee.org")
-      (:commit . "10316e7bd865e5ba23291d7fd939649201a214a5"))])
+      (:commit . "30f1d28314424210f20bc09747cdcbed76b22d44"))])
  (xkcd
   . [(1 1) ((json (1 3))) "View xkcd from Emacs" tar
      ((:url . "https://github.com/vibhavp/emacs-xkcd")
